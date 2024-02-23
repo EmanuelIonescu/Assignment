@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ #some-id {
+    width: 400px;
+   
+ }
+            a[target="_blank"] {
+color: green;
+text-decoration: none;
+            }
+            a[target="_self"] {
+color: red;
+text-decoration: none;
+            }
+
+ 
+p:nth-child(1){
+    color: red;
+}
+p:nth-child(2){
+    color: blue;
+    
+}
+p:nth-child(3){
+    color: red;
+}
+#first p {
+    color: black;
+}
+#first p::before{
+    content: "New-";
+    color: yellow;
+    }
+  
+    #third :hover{font-style: italic;
+    } 
+ 
+ #third :first-child{
+    color: black;
+ }
+    
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Test Pe modul</h1>
+    <div id="some-id" class="clasa1">
+        <a href="http://www.link-group.eu" target="_self">Link Group</a>
+        <a href="http://www.link-group.eu/careers">Link Careers</a>
+        <a href="http://www.link-group.eu/about-us-0">About Link</a>
+        <a href="https://google.com/" target="_blank">Go To Google</a>
+<hr>
+
+     <p>Paragraph 1</p>
+    
+<div id="first">
+     <p>Paragraph 2</p>
+     <p>Paragraph 3</p>
+    </div>
+    
+ <div id="second div">
+     <p target="4">Paragraph 4</p>
+     <p target="5">Paragraph 5</p>
+     <p target="6">Paragraph 6</p>  
+ </div>
+
+ <div id="third">
+    <p>Paragraph 10</p>
+ </div>
+
+        
+
+</body>
+</html>
